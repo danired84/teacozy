@@ -29,6 +29,7 @@ header, .text-mission, .place {
 header, .logo {
   display: flex;
   align-items: center;
+opacity: 0.2;
 }
 
 #locations, #mission {
@@ -164,6 +165,10 @@ background-repeat: no-repeat;
   text-align: center;
   margin: 0 20px;
   opacity: 1;
+}
+
+.contact h2 {
+  margin-bottom: 50px;
 }
 
 /* Footer */
