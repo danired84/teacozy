@@ -12,7 +12,6 @@ body {
 
 .container {
   padding-top: 70px;
-  border: 1px solid yellow;
   padding-bottom: 70px;
 }
 
@@ -32,10 +31,6 @@ header, .logo {
   align-items: center;
 }
 
-.logo img {
-  height: 50px;
-}
-
 #locations, #mission {
   width: 1200px;
 }
@@ -44,8 +39,8 @@ h2, h4 {
   margin: 10px auto;
 }
 
-.image-content {
-  background-size: contain;
+.place, .locations, .store, #mission {
+  justify-content: center;
 }
 
 /* Navigation */
@@ -64,6 +59,10 @@ header {
   padding-left: 10px;
 }
 
+.logo img {
+  height: 50px;
+}
+
 nav {
   padding-right: 10px;
 }
@@ -71,10 +70,6 @@ nav {
 a {
   color: white;
   padding: 10px;
-}
-
-.place, .locations, .store, #mission {
-  justify-content: center;
 }
 
 /* Main */
@@ -103,10 +98,6 @@ background-repeat: no-repeat;
 
 }
 
-.item .image-content {
-  width: 300px;
-}
-
 .item {
   height: 240px; /* no sabemos si 300 es optimo, borrar o cambiar */
   margin: 5px;
@@ -119,6 +110,15 @@ background-repeat: no-repeat;
 
 .product {
   margin-top: 10px;
+}
+
+
+.image-content {
+  background-size: contain;
+}
+
+.item .image-content {
+  width: 300px;
 }
 
 .berry {
@@ -143,7 +143,6 @@ background-repeat: no-repeat;
 
 /* locations */
 .container-locations h2 {
-  padding: 0;
   margin-bottom: 15px;
 }
 
