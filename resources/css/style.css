@@ -28,8 +28,7 @@ header, .text-mission, .place {
 
 header, .logo {
   display: flex;
-  align-items: center;
-opacity: 0.2;
+  align-items: center;  
 }
 
 #locations, #mission {
